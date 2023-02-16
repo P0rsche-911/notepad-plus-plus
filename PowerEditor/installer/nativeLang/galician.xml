@@ -3,7 +3,7 @@
 The comments are here for explanation, it's not necessary to translate them.
 -->
 <NotepadPlus>
-	<Native-Langue name = "Galego" filename="galician.xml" version="8.4.7">
+	<Native-Langue name = "Galego" filename="galician.xml" version="8.5.0">
 		<Menu>
 			<Main>
                 <!-- Main Menu Entries -->
@@ -21,7 +21,6 @@ The comments are here for explanation, it's not necessary to translate them.
 					<Item menuId = "Plugins" name = "Complemen&amp;tos"/>
 					<Item menuId = "Window" name = "Pesta&amp;nas"/>
 				</Entries>
-
                 <!-- Sub Menu Entries -->
                 <SubEntries>
                     <Item submenuid = "file-openFolder" name = "Abrir carpeta con&amp;tedora"/>
@@ -96,7 +95,7 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "41010" name = "&amp;Imprimir..."/>
                     <Item id = "1001"  name = "I&amp;mprimir agora"/>
                     <Item id = "41011" name = "&amp;Saír"/>
-					<Item id = "41012" name = "Car&amp;gar sesión..."/>
+                    <Item id = "41012" name = "Car&amp;gar sesión..."/>
                     <Item id = "41013" name = "Gar&amp;dar sesión..."/>
                     <Item id = "41014" name = "Recargar desde disc&amp;o"/>
                     <Item id = "41015" name = "Gardar &amp;unha copia como..."/>
@@ -112,7 +111,8 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "42005" name = "&amp;Pegar"/>
                     <Item id = "42006" name = "&amp;Borrar"/>
                     <Item id = "42007" name = "Seleccionar t&amp;odo"/>
-                    <Item id = "42020" name = "Selección inicio/&amp;fin "/>
+                    <Item id = "42020" name = "Selección de inicio/&amp;fin "/>
+                    <Item id = "42089" name = "Selección de inicio/fin no modo columna"/>
                     <Item id = "42084" name = "Data e hora (curta)"/>
                     <Item id = "42085" name = "Data e hora (longa)"/>
                     <Item id = "42086" name = "Data e hora (personalizada)"/>
@@ -184,8 +184,8 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "42088" name = "Copiar tódalas rutas dos arquivos"/>
                     <Item id = "42032" name = "&amp;Executar macro múltiples veces..."/>
                     <Item id = "42033" name = "Desactivar só lectura"/>
-					<Item id = "42035" name = "Comentar unha liña"/>
-					<Item id = "42036" name = "Descomentar unha liña"/>
+                    <Item id = "42035" name = "Comentar unha liña"/>
+                    <Item id = "42036" name = "Descomentar unha liña"/>
                     <Item id = "42055" name = "Eliminar liñas baleiras"/>
                     <Item id = "42056" name = "Eliminar liñas baleiras (e contido en branco)"/>
                     <Item id = "42057" name = "Insertar liña en branco arriba da actual"/>
@@ -295,6 +295,7 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "44113" name = "Aplicar cor 3"/>
                     <Item id = "44114" name = "Aplicar cor 4"/>
                     <Item id = "44115" name = "Aplicar cor 5"/>
+                    <Item id = "44130" name = "Mostrar caracteres non imprimibles"/>
                     <Item id = "44032" name = "Activar o modo de pantalla completa"/>
                     <Item id = "44033" name = "Restaurar zoom 100%"/>
                     <Item id = "44034" name = "Sempre visible"/>
@@ -313,11 +314,11 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "45006" name = "Codificar en UTF-16 Big Endian BOM"/>
                     <Item id = "45007" name = "Codificar en UTF-16 Little Endian BOM"/>
                     <Item id = "45008" name = "Codificar en UTF-8"/>
-			<Item id = "45009" name = "Converter a ANSI"/>
-			<Item id = "45010" name = "Converter a UTF-8"/>
-			<Item id = "45011" name = "Converter a UTF-8-BOM"/>
-			<Item id = "45012" name = "Converter a UTF-16 Big Endian BOM"/>
-			<Item id = "45013" name = "Converter a UTF-16 Little Endian BOM"/>
+                    <Item id = "45009" name = "Converter a ANSI"/>
+                    <Item id = "45010" name = "Converter a UTF-8"/>
+                    <Item id = "45011" name = "Converter a UTF-8-BOM"/>
+                    <Item id = "45012" name = "Converter a UTF-16 Big Endian BOM"/>
+                    <Item id = "45013" name = "Converter a UTF-16 Little Endian BOM"/>
                     <Item id = "45060" name = "Big5 (tradicional)"/>
                     <Item id = "45061" name = "GB2312 (simplificado)"/>
                     <Item id = "45054" name = "OEM 861: Islandés"/>
@@ -360,7 +361,7 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "48506" name = "Xerar desde a selección ao portapapeis"/>
                     <Item id = "49000" name = "E&amp;xecutar..."/>
 
-					<Item id = "50000" name = "Completar función "/>
+                    <Item id = "50000" name = "Completar función "/>
                     <Item id = "50001" name = "Completar palabra "/>
                     <Item id = "50002" name = "Parámetros da función &quot;suxerencia&quot;"/>
                     <Item id = "50010" name = "Parámetros da función &quot;suxerencia anterior&quot;"/>
@@ -442,16 +443,16 @@ The comments are here for explanation, it's not necessary to translate them.
                 <Item id = "1611" name = "Su&amp;bstituír con:"/>
                 <Item id = "1608" name = "&amp;Substituír"/>
                 <Item id = "1609" name = "Substituír &amp;todo"/>
-			 	<Item id = "1687" name = "Ao perder o foco"/>
-			 	<Item id = "1688" name = "Sempre"/>
-			 	<Item id = "1632" name = "Na selecc&amp;ión"/>
-			 	<Item id = "1633" name = "Borrar marcas"/>
-			 	<Item id = "1635" name = "Substituír en tód&amp;olos arquivos abertos"/>
-			 	<Item id = "1636" name = "Buscar en tódolos &amp;arquivos abertos"/>
-			 	<Item id = "1654" name = "Filtro&amp;s:"/>
-			 	<Item id = "1655" name = "Car&amp;peta:"/>
-			 	<Item id = "1656" name = "Buscar todo"/>
-			 	<Item id = "1658" name = "En tódalas sub&amp;carpetas"/>
+                <Item id = "1687" name = "Ao perder o foco"/>
+                <Item id = "1688" name = "Sempre"/>
+                <Item id = "1632" name = "Na selecc&amp;ión"/>
+                <Item id = "1633" name = "Borrar marcas"/>
+                <Item id = "1635" name = "Substituír en tód&amp;olos arquivos abertos"/>
+                <Item id = "1636" name = "Buscar en tódolos &amp;arquivos abertos"/>
+                <Item id = "1654" name = "Filtro&amp;s:"/>
+                <Item id = "1655" name = "Car&amp;peta:"/>
+                <Item id = "1656" name = "Buscar todo"/>
+                <Item id = "1658" name = "En tódalas sub&amp;carpetas"/>
                 <Item id = "1659" name = "En carpetas o&amp;cultas"/>
                 <Item id = "1624" name = "Modo de busca"/>
                 <Item id = "1625" name = "&amp;Normal"/>
@@ -543,12 +544,12 @@ The comments are here for explanation, it's not necessary to translate them.
             </PluginsAdminDlg>
 
             <StyleConfig title = "Configurador de estilo">
-				<Item id = "2" name = "Cancelar"/>
-				<Item id = "2301" name = "Gardar &amp;&amp; Pechar"/>
-				<Item id = "2303" name = "Transparencia"/>
+                <Item id = "2"    name = "Cancelar"/>
+                <Item id = "2301" name = "Gardar &amp;&amp; Pechar"/>
+                <Item id = "2303" name = "Transparencia"/>
                 <Item id = "2306" name = "Seleccionar tema: "/>
                 <SubDialog>
-                	<Item id = "2204" name = "Grosa"/>
+                    <Item id = "2204" name = "Grosa"/>
                     <Item id = "2205" name = "Cursiva"/>
                     <Item id = "2206" name = "Primeiro plano"/>
                     <Item id = "2207" name = "Fondo"/>
@@ -591,6 +592,20 @@ The comments are here for explanation, it's not necessary to translate them.
                 <ScintillaCommandsTab name = "Comandos Scintilla"/>
                 <ConflictInfoOk name = "Non hai conflitos de acceso para este elemento."/>
                 <ConflictInfoEditing name = "Sen conflitos..."/>
+                <WindowCategory name="Ventá"/>
+                <FileCategory name="Arquivo"/>
+                <EditCategory name="Editar"/>
+                <SearchCategory name="Buscar"/>
+                <ViewCategory name="Vista"/>
+                <FormatCategory name="Formato"/>
+                <LangCategory name="Idioma"/>
+                <AboutCategory name="Acerca de"/>
+                <SettingCategory name="Configuración"/>
+                <ToolCategory name="Ferramentas"/>
+                <ExecuteCategory name="Executar"/>
+                <ModifyContextMenu name="Modificar"/>
+                <DeleteContextMenu name="Eliminar"/>
+                <ClearContextMenu name="Borrar"/>
                 <MainCommandNames>
                     <Item id = "41019" name = "Abrir carpeta contedora en Explorer"/>
                     <Item id = "41020" name = "Abrir carpeta contedora no Símbolo do sistema"/>
@@ -697,16 +712,17 @@ The comments are here for explanation, it's not necessary to translate them.
             </ShortcutMapperSubDialg>
             <UserDefine title = "Definido polo usuario">
                 <Item id = "20001" name = "Acoplar"/>
-				<Item id = "20002" name = "Renomear"/>
-				<Item id = "20003" name = "Crear novo..."/>
-				<Item id = "20004" name = "Borrar"/>
-				<Item id = "20005" name = "Gardar como..."/>
-				<Item id = "20007" name = "Linguaxe do usuario: "/>
-				<Item id = "20009" name = "Ext.:"/>
-				<Item id = "20012" name = "Ignorar MAIÚS/minús"/>
-				<Item id = "20011" name = "Transparencia"/>
+                <Item id = "20002" name = "Renomear"/>
+                <Item id = "20003" name = "Crear novo..."/>
+                <Item id = "20004" name = "Borrar"/>
+                <Item id = "20005" name = "Gardar como..."/>
+                <Item id = "20007" name = "Linguaxe do usuario: "/>
+                <Item id = "20009" name = "Ext.:"/>
+                <Item id = "20012" name = "Ignorar MAIÚS/minús"/>
+                <Item id = "20011" name = "Transparencia"/>
                 <Item id = "20015" name = "Importar..."/>
                 <Item id = "20016" name = "Exportar..."/>
+                <Item id = "20017" name = "Desacoplar"/>
                 <StylerDialog title = "Estilos">
                     <Item id = "25030" name = "Opcións de fonte:"/>
                     <Item id = "25006" name = "Primeiro plano"/>
@@ -744,7 +760,7 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "2" name = "Cancelar"/>
                 </StylerDialog>
                 <Folder title = "Carpeta &amp;&amp; Predeterminado">
-					<Item id = "21101" name = "Estilo por defecto"/>
+                    <Item id = "21101" name = "Estilo por defecto"/>
                     <Item id = "21102" name = "Estilo"/>
                     <Item id = "21105" name = "Documentación:"/>
                     <Item id = "21104" name = "Sitio web:"/>
@@ -766,10 +782,10 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "21427" name = "Estilo"/>
                 </Folder>
                 <Keywords title = "Listas de palabras clave">
-					<Item id = "22101" name = "1º grupo"/>
-					<Item id = "22201" name = "2º grupo"/>
-					<Item id = "22301" name = "3º grupo"/>
-					<Item id = "22401" name = "4º grupo"/>
+                    <Item id = "22101" name = "1º grupo"/>
+                    <Item id = "22201" name = "2º grupo"/>
+                    <Item id = "22301" name = "3º grupo"/>
+                    <Item id = "22401" name = "4º grupo"/>
                     <Item id = "22451" name = "5º grupo"/>
                     <Item id = "22501" name = "6º grupo"/>
                     <Item id = "22551" name = "7º grupo"/>
@@ -801,12 +817,12 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "23323" name = "Abrir"/>
                     <Item id = "23324" name = "Continuación"/>
                     <Item id = "23325" name = "Pechar"/>
-					<Item id = "23301" name = "Estilo de comentario de liña"/>
+                    <Item id = "23301" name = "Estilo de comentario de liña"/>
                     <Item id = "23124" name = "Estilo"/>
                     <Item id = "23122" name = "Abrir"/>
                     <Item id = "23123" name = "Pechar"/>
-					<Item id = "23101" name = "Estilo de comentario"/>
-					<Item id = "23201" name = "Estilo numérico"/>
+                    <Item id = "23101" name = "Estilo de comentario"/>
+                    <Item id = "23201" name = "Estilo numérico"/>
                     <Item id = "23220" name = "Estilo"/>
                     <Item id = "23230" name = "Prefixo 1"/>
                     <Item id = "23232" name = "Prefixo 2"/>
@@ -821,16 +837,16 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "23247" name = "Ambos"/>
                 </Comment>
                 <Operator title = "Operadores &amp;&amp; Delimitador">
-					<Item id = "24101" name = "Estilo de operadores"/>
+                    <Item id = "24101" name = "Estilo de operadores"/>
                     <Item id = "24113" name = "Estilo"/>
                     <Item id = "24116" name = "Operadores 1"/>
                     <Item id = "24117" name = "Operadores 2 (necesita separadores)"/>
-					<Item id = "24201" name = "Estilo do delimitador 1"/>
+                    <Item id = "24201" name = "Estilo do delimitador 1"/>
                     <Item id = "24220" name = "Abrir:"/>
                     <Item id = "24221" name = "Escape:"/>
                     <Item id = "24222" name = "Pechar:"/>
                     <Item id = "24223" name = "Estilo"/>
-					<Item id = "24301" name = "Estilo do delimitador 2"/>
+                    <Item id = "24301" name = "Estilo do delimitador 2"/>
                     <Item id = "24320" name = "Abrir:"/>
                     <Item id = "24321" name = "Escape:"/>
                     <Item id = "24322" name = "Pechar:"/>
@@ -867,29 +883,29 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "24673" name = "Estilo"/>
                 </Operator>
             </UserDefine>
-			<Preference title = "Preferencias">
+            <Preference title = "Preferencias">
                 <Item id = "6001" name = "Pechar"/>
-				<Global title = "Xerais">
-					<Item id = "6101" name = "Barra de ferramentas"/>
-					<Item id = "6102" name = "Ocultar"/>
-					<Item id = "6103" name = "Iconas pequenas sin recheo"/>
-	                <Item id = "6104" name = "Iconas grandes sin recheo"/>
+                <Global title = "Xerais">
+                    <Item id = "6101" name = "Barra de ferramentas"/>
+                    <Item id = "6102" name = "Ocultar"/>
+                    <Item id = "6103" name = "Iconas pequenas sin recheo"/>
+                    <Item id = "6104" name = "Iconas grandes sin recheo"/>
                     <Item id = "6129" name = "Iconas pequenas con recheo"/>
                     <Item id = "6130" name = "Iconas grandes con recheo"/>
-					<Item id = "6105" name = "Iconas pequenas predeterminadas"/>
+                    <Item id = "6105" name = "Iconas pequenas predeterminadas"/>
 
-					<Item id = "6106" name = "Barra de pestanas"/>
-					<Item id = "6107" name = "Reducir texto"/>
-					<Item id = "6108" name = "Bloquear (impedir arrastrar e soltar)"/>
-					<Item id = "6109" name = "Oscurecer pestanas inactivas"/>
-					<Item id = "6110" name = "Barra de cor na pestana activa"/>
+                    <Item id = "6106" name = "Barra de pestanas"/>
+                    <Item id = "6107" name = "Reducir texto"/>
+                    <Item id = "6108" name = "Bloquear (impedir arrastrar e soltar)"/>
+                    <Item id = "6109" name = "Oscurecer pestanas inactivas"/>
+                    <Item id = "6110" name = "Barra de cor na pestana activa"/>
 
-					<Item id = "6111" name = "Mostrar barra de estado"/>
-					<Item id = "6112" name = "Botón de peche en cada pestana"/>
-					<Item id = "6113" name = "Dobre clic para pechar pestana"/>
-					<Item id = "6118" name = "Oculta"/>
-					<Item id = "6119" name = "Multiliña"/>
-					<Item id = "6120" name = "Vertical"/>
+                    <Item id = "6111" name = "Mostrar barra de estado"/>
+                    <Item id = "6112" name = "Botón de peche en cada pestana"/>
+                    <Item id = "6113" name = "Dobre clic para pechar pestana"/>
+                    <Item id = "6118" name = "Oculta"/>
+                    <Item id = "6119" name = "Multiliña"/>
+                    <Item id = "6120" name = "Vertical"/>
                     <Item id = "6121" name = "Saír ao pechar a derradeira"/>
 
                     <Item id = "6131" name = "Menú"/>
@@ -898,7 +914,7 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "6123" name = "Idioma"/>
 
                     <Item id = "6128" name = "Iconas alternativas"/>
-				</Global>
+                </Global>
                 <Scintillas title = "Edición">
                     <Item id = "6216" name = "Configuración do cursor"/>
                     <Item id = "6217" name = "Ancho:"/>
@@ -915,7 +931,7 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "6215" name = "Suavizar a fonte"/>
                     <Item id = "6236" name = "Permitir desprazamento despois da última liña"/>
                     <Item id = "6239" name = "Manter a selección si preme o botón dereito fóra da selección"/>
-					<Item id = "6245" name = "Habilitar espazo virtual"/>
+                    <Item id = "6245" name = "Habilitar espazo virtual"/>
                     <Item id = "6651" name = "Indicador de liña actual"/>
                     <Item id = "6652" name = "Ningún"/>
                     <Item id = "6653" name = "Fondo resaltado"/>
@@ -925,10 +941,16 @@ The comments are here for explanation, it's not necessary to translate them.
                     <Item id = "6248" name = "Predeterminado"/>
                     <Item id = "6249" name = "Texto sin formato"/>
                     <Item id = "6250" name = "Cor personalizada"/>
+                    <Item id = "6252" name = "Caracteres non imprimibles"/>
+                    <Item id = "6254" name = "Abreviatura"/>
+                    <Item id = "6255" name = "Punto de código"/>
+                    <Item id = "6256" name = "Cor personalizada"/>
                 </Scintillas>
 
                 <DarkMode title = "Modo escuro">
-                    <Item id = "7101" name = "Activar"/>
+                    <Item id = "7131" name = "Modo claro"/>
+                    <Item id = "7132" name = "Modo escuro"/>
+                    <Item id = "7133" name = "Segundo Windows"/>
                     <Item id = "7102" name = "Tono negro"/>
                     <Item id = "7103" name = "Tono vermello"/>
                     <Item id = "7104" name = "Tono verde"/>
@@ -954,42 +976,42 @@ The comments are here for explanation, it's not necessary to translate them.
                 </DarkMode>
 
                 <MarginsBorderEdge title = "Marxe, bordo e liñas">
-					<Item id = "6201" name = "Estilo de marxen"/>
-					<Item id = "6202" name = "Simple"/>
-					<Item id = "6203" name = "Frechas"/>
-	                <Item id = "6204" name = "Círculos"/>
-					<Item id = "6205" name = "Rectángulos"/>
+                    <Item id = "6201" name = "Estilo de marxen"/>
+                    <Item id = "6202" name = "Simple"/>
+                    <Item id = "6203" name = "Frechas"/>
+                    <Item id = "6204" name = "Círculos"/>
+                    <Item id = "6205" name = "Rectángulos"/>
                     <Item id = "6226" name = "Ningún"/>
                     <Item id = "6291" name = "Numeración de liñas"/>
-					<Item id = "6206" name = "Mostrar"/>
+                    <Item id = "6206" name = "Mostrar"/>
                     <Item id = "6292" name = "Ancho dinámico"/>
                     <Item id = "6293" name = "Ancho fixo"/>
-					<Item id = "6207" name = "Mostrar marcador"/>
+                    <Item id = "6207" name = "Mostrar marcador"/>
                     <Item id = "6223" name = "Mostrar marcas de cambios"/>
-					<Item id = "6211" name = "Configuración do bordo vertical"/>
-					<Item id = "6213" name = "Modo de fondo"/>
+                    <Item id = "6211" name = "Configuración do bordo vertical"/>
+                    <Item id = "6213" name = "Modo de fondo"/>
                     <Item id = "6237" name = "Engada o seu marcador de columna indicando a súa posición cun número decimal.
 Pode definir varios marcadores de columna utilizando espazos en branco para separar os diferentes números."/>
                     <Item id = "6231" name = "Ancho do bordo"/>
                     <Item id = "6235" name = "Sen recadro"/>
-					<Item id = "6208" name = "Recheo"/>
-					<Item id = "6209" name = "Esquerda"/>
+                    <Item id = "6208" name = "Recheo"/>
+                    <Item id = "6209" name = "Esquerda"/>
                     <Item id = "6210" name = "Dereita"/>
-					<Item id = "6212" name = "Sen distraccións"/>
+                    <Item id = "6212" name = "Sen distraccións"/>
                 </MarginsBorderEdge>
 
-				<NewDoc title = "Novo documento">
-					<Item id = "6401" name = "Formato (fin de liña)"/>
-					<Item id = "6402" name = "Windows (CR LF)"/>
-					<Item id = "6403" name = "Unix (LF)"/>
-	                <Item id = "6404" name = "Macintosh (CR)"/>
-					<Item id = "6405" name = "Codificación"/>
-					<Item id = "6406" name = "ANSI"/>
-					<Item id = "6407" name = "UTF-8"/>
-					<Item id = "6408" name = "UTF-8 con BOM"/>
-					<Item id = "6409" name = "UTF-16 Big Endian con BOM"/>
-					<Item id = "6410" name = "UTF-16 Little Endian con BOM"/>
-					<Item id = "6411" name = "Linguaxe predet.:"/>
+                <NewDoc title = "Novo documento">
+                    <Item id = "6401" name = "Formato (fin de liña)"/>
+                    <Item id = "6402" name = "Windows (CR LF)"/>
+                    <Item id = "6403" name = "Unix (LF)"/>
+                    <Item id = "6404" name = "Macintosh (CR)"/>
+                    <Item id = "6405" name = "Codificación"/>
+                    <Item id = "6406" name = "ANSI"/>
+                    <Item id = "6407" name = "UTF-8"/>
+                    <Item id = "6408" name = "UTF-8 con BOM"/>
+                    <Item id = "6409" name = "UTF-16 Big Endian con BOM"/>
+                    <Item id = "6410" name = "UTF-16 Little Endian con BOM"/>
+                    <Item id = "6411" name = "Linguaxe predet.:"/>
                     <Item id = "6419" name = "Novo documento"/>
                     <Item id = "6420" name = "Aplicar aos arquivos ANSI abertos"/>
                 </NewDoc>
@@ -1001,19 +1023,19 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                     <Item id = "6431" name = "Abrir tódolos arquivos da carpeta en vez de usar a carpeta como área de traballo"/>
                 </DefaultDir>
 
-				<FileAssoc title = "Asociación de arquivos">
+                <FileAssoc title = "Asociación de arquivos">
                     <Item id = "4008" name = "Para usar esta función, reinicie Notepad++ en modo Administrador"/>
-					<Item id = "4009" name = "Extensións soportadas:"/>
-					<Item id = "4010" name = "Extensións registradas:"/>
+                    <Item id = "4009" name = "Extensións soportadas:"/>
+                    <Item id = "4010" name = "Extensións registradas:"/>
                 </FileAssoc>
-				<Language title = "Linguaxes">
-					<Item id = "6505" name = "Dispoñibles"/>
-					<Item id = "6506" name = "Desactivadas"/>
+                <Language title = "Linguaxes">
+                    <Item id = "6505" name = "Dispoñibles"/>
+                    <Item id = "6506" name = "Desactivadas"/>
                     <Item id = "6507" name = "Compactar o menú de linguaxes"/>
                     <Item id = "6508" name = "Menú de linguaxes"/>
-					<Item id = "6301" name = "Tabuladores"/>
-					<Item id = "6302" name = "Sustituir por espazos"/>
-					<Item id = "6303" name = "Tamaño: "/>
+                    <Item id = "6301" name = "Tabuladores"/>
+                    <Item id = "6302" name = "Sustituir por espazos"/>
+                    <Item id = "6303" name = "Tamaño: "/>
                     <Item id = "6510" name = "Usar valor por defecto"/>
                     <Item id = "6335" name = "Tratar barra invertida como carácter de escape para SQL"/>
                 </Language>
@@ -1036,30 +1058,30 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                 </Highlighting>
 
                 <Print title = "Impresión">
-					<Item id = "6601" name = "Imprimir número de liña"/>
-					<Item id = "6602" name = "Opcións de cor"/>
-					<Item id = "6603" name = "Sen modificar"/>
-					<Item id = "6604" name = "Invertir"/>
-	                <Item id = "6605" name = "Negro sobre branco"/>
-					<Item id = "6606" name = "Sen cor de fondo"/>
-					<Item id = "6607" name = "Marxes (milímetros)"/>
-					<Item id = "6612" name = "Esquerdo"/>
-					<Item id = "6613" name = "Superior"/>
-					<Item id = "6614" name = "Dereito"/>
-					<Item id = "6615" name = "Inferior"/>
-					<Item id = "6706" name = "Grosa"/>
-					<Item id = "6707" name = "Cursiva"/>
-					<Item id = "6708" name = "Cabeceira"/>
-					<Item id = "6709" name = "Parte esquerda"/>
-	                <Item id = "6710" name = "Parte central"/>
-					<Item id = "6711" name = "Parte dereita"/>
-					<Item id = "6717" name = "Grosa"/>
-					<Item id = "6718" name = "Cursiva"/>
-					<Item id = "6719" name = "Pé de páxina"/>
-					<Item id = "6720" name = "Parte esquerda"/>
-	                <Item id = "6721" name = "Parte central"/>
-					<Item id = "6722" name = "Parte dereita"/>
-	                <Item id = "6723" name = "Engadir"/>
+                    <Item id = "6601" name = "Imprimir número de liña"/>
+                    <Item id = "6602" name = "Opcións de cor"/>
+                    <Item id = "6603" name = "Sen modificar"/>
+                    <Item id = "6604" name = "Invertir"/>
+                    <Item id = "6605" name = "Negro sobre branco"/>
+                    <Item id = "6606" name = "Sen cor de fondo"/>
+                    <Item id = "6607" name = "Marxes (milímetros)"/>
+                    <Item id = "6612" name = "Esquerdo"/>
+                    <Item id = "6613" name = "Superior"/>
+                    <Item id = "6614" name = "Dereito"/>
+                    <Item id = "6615" name = "Inferior"/>
+                    <Item id = "6706" name = "Grosa"/>
+                    <Item id = "6707" name = "Cursiva"/>
+                    <Item id = "6708" name = "Cabeceira"/>
+                    <Item id = "6709" name = "Parte esquerda"/>
+                    <Item id = "6710" name = "Parte central"/>
+                    <Item id = "6711" name = "Parte dereita"/>
+                    <Item id = "6717" name = "Grosa"/>
+                    <Item id = "6718" name = "Cursiva"/>
+                    <Item id = "6719" name = "Pé de páxina"/>
+                    <Item id = "6720" name = "Parte esquerda"/>
+                    <Item id = "6721" name = "Parte central"/>
+                    <Item id = "6722" name = "Parte dereita"/>
+                    <Item id = "6723" name = "Engadir"/>
                     <ComboBox id="6724">
                         <Element name = "Ruta do arquivo"/>
                         <Element name = "Nome do arquivo"/>
@@ -1069,7 +1091,7 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                         <Element name = "Formato data longo"/>
                         <Element name = "Hora"/>
                     </ComboBox>
-					<Item id = "6725" name = "Opcións:"/>
+                    <Item id = "6725" name = "Opcións:"/>
                     <Item id = "6727" name = "Mostrar os seus axustes variables"/>
                     <Item id = "6728" name = "Cabeceira e pé de páxina"/>
                 </Print>
@@ -1086,9 +1108,9 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                 </Searching>
 
                 <RecentFilesHistory title = "Arquivos recentes">
-					<Item id = "6304" name = "Historial de arquivos recentes"/>
-					<Item id = "6306" name = "Número máx. de entradas:"/>
-	                <Item id = "6305" name = "Non verificar ao iniciar o programa"/>
+                    <Item id = "6304" name = "Historial de arquivos recentes"/>
+                    <Item id = "6306" name = "Número máx. de entradas:"/>
+                    <Item id = "6305" name = "Non verificar ao iniciar o programa"/>
                     <Item id = "6429" name = "Mostrar"/>
                     <Item id = "6424" name = "No submenú"/>
                     <Item id = "6425" name = "Só nome de arquivo"/>
@@ -1102,32 +1124,33 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                     <Item id = "6819" name = "Realizar copias cada"/>
                     <Item id = "6821" name = "segundos"/>
                     <Item id = "6822" name = "Gardar en:"/>
-					<Item id = "6309" name = "Recordar a sesión actual no próximo inicio"/>
-					<Item id = "6801" name = "Copia de seguridade"/>
-					<Item id = "6315" name = "Non facer"/>
-					<Item id = "6316" name = "Copia simple"/>
-					<Item id = "6317" name = "Copia detallada"/>
-					<Item id = "6804" name = "Usar esta carpeta para as copias personalizadas"/>
-					<Item id = "6803" name = "Carpeta:"/>
+                    <Item id = "6309" name = "Recordar a sesión actual no próximo inicio"/>
+                    <Item id = "6801" name = "Copia de seguridade"/>
+                    <Item id = "6315" name = "Non facer"/>
+                    <Item id = "6316" name = "Copia simple"/>
+                    <Item id = "6317" name = "Copia detallada"/>
+                    <Item id = "6804" name = "Usar esta carpeta para as copias personalizadas"/>
+                    <Item id = "6803" name = "Carpeta:"/>
                 </Backup>
 
                 <AutoCompletion title = "Autocompletado">
-					<Item id = "6115" name = "Autoindentar"/>
-					<Item id = "6807" name = "Autocompletado"/>
-	                <Item id = "6808" name = "Activar o autocompletado en cada entrada"/>
-					<Item id = "6809" name = "Autocompletar función"/>
-					<Item id = "6810" name = "Autocompletar palabra"/>
+                    <Item id = "6115" name = "Autoindentar"/>
+                    <Item id = "6807" name = "Autocompletado"/>
+                    <Item id = "6808" name = "Activar o autocompletado en cada entrada"/>
+                    <Item id = "6809" name = "Autocompletar función"/>
+                    <Item id = "6810" name = "Autocompletar palabra"/>
                     <Item id = "6816" name = "Autocompletar función e palabra"/>
                     <Item id = "6869" name = "Insertar selección"/>
                     <Item id = "6870" name = "TAB"/> <!-- TAB key on the keyboard, it's not necessary to translate it normally -->
                     <Item id = "6871" name = "ENTER"/> <!-- ENTER key on the keyboard, it's not necessary to translate it normally -->
                     <Item id = "6824" name = "Ignorar números"/>
-					<Item id = "6811" name = "Desde"/>
-					<Item id = "6813" name = "º carácter"/>
-					<Item id = "6814" name = "Valores válidos: 1 a 9"/>
+                    <Item id = "6811" name = "Desde"/>
+                    <Item id = "6813" name = "º carácter"/>
+                    <Item id = "6814" name = "Valores válidos: 1 a 9"/>
+                    <Item id = "6872" name = "Reducir a listaxe de autocompletado"/>
                     <Item id = "6815" name = "Suxerencias para os parámetros da función"/>
                     <Item id = "6851" name = "Inserción/Peche automático"/>
-                    <Item id = "6857" name = "Etiqueta de peche de html/xml"/>
+                    <Item id = "6857" name = "Peche de html/xml"/>
                     <Item id = "6858" name = "Abrir"/>
                     <Item id = "6859" name = "Pechar"/>
                     <Item id = "6860" name = "1ª parella:"/>
@@ -1141,9 +1164,19 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                     <Item id = "6153" name = "Usar sempre en modo de múltiples instancias"/>
                     <Item id = "6154" name = "Instancia única por defecto"/>
                     <Item id = "6155" name = "* Se modifica estes axustes ten que reiniciar Notepad++&#xA;** e gardar a sesión automáticamente ao saír"/>
-                    <Item id = "6171" name = "Personalizar 'Insertar data e hora'"/>
-                    <Item id = "6175" name = "Orden inverso de data e hora predeterminada (formatos curto &amp;&amp;; longo)"/>
+                    <Item id = "6171" name = "Personalizar &quot;Insertar data e hora&quot;"/>
+                    <Item id = "6175" name = "Orden inverso de data e hora predeterminada (formatos curto &amp;&amp; longo)"/>
                     <Item id = "6172" name = "Formato personalizado:"/>
+                    <Item id = "6181" name = "Estado do panel e [-nosesión] *"/>
+                    <Item id = "6182" name = "Recordar o estado de panel (o panel está aberto) en outras instancias (modo múltiples instancias) ou cando use o comando [-nosession]"/>
+                    <Item id = "6183" name = "Historial do portapapeis"/>
+                    <Item id = "6184" name = "Listaxe de documentos"/>
+                    <Item id = "6185" name = "Panel de caracteres"/>
+                    <Item id = "6186" name = "Carpeta como espazo de traballo"/>
+                    <Item id = "6187" name = "Paneis de proxecto"/>
+                    <Item id = "6188" name = "Mapa do documento"/>
+                    <Item id = "6189" name = "Listaxe de funcións"/>
+                    <Item id = "6190" name = "Paneis de complementos"/>
                 </MultiInstance>
 
                 <Delimiter title = "Delimitador">
@@ -1173,9 +1206,9 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                     <Item id = "6262" name = "Axustes da nube"/>
                     <Item id = "6263" name = "Sen nube"/>
                     <Item id = "6267" name = "Indique abaixo a ruta da ubicación da nube:"/>
-					<Item id = "6318" name = "Configuración das ligazóns"/>
-					<Item id = "6319" name = "Habilitar"/>
-					<Item id = "6320" name = "Sen subraiado"/>
+                    <Item id = "6318" name = "Configuración das ligazóns"/>
+                    <Item id = "6319" name = "Habilitar"/>
+                    <Item id = "6320" name = "Sen subraiado"/>
                     <Item id = "6350" name = "Remarcado co cursor enriba"/>
                     <Item id = "6264" name = "Esquemas personalizados de URI:"/>
                 </Cloud>
@@ -1197,19 +1230,19 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                         <Element name = "Habilitar para tódolos arquivos abertos"/>
                         <Element name = "Deshabilitar"/>
                     </ComboBox>
-					<Item id = "6308" name = "Minimizar na bandexa do sistema"/>
-					<Item id = "6312" name = "Autodetectar estado do arquivo"/>
-					<Item id = "6313" name = "Actualizar sen notificar"/>
+                    <Item id = "6308" name = "Minimizar na bandexa do sistema"/>
+                    <Item id = "6312" name = "Autodetectar estado do arquivo"/>
+                    <Item id = "6313" name = "Actualizar sen notificar"/>
                     <Item id = "6325" name = "Ir á última liña tras actualizar"/>
                     <Item id = "6322" name = "Extensión do arquivo de sesión:"/>
-					<Item id = "6323" name = "Actualizar automaticamente Notepad++"/>
-					<Item id = "6324" name = "Cambiar de documento (Ctrl+TAB)"/>
+                    <Item id = "6323" name = "Actualizar automaticamente Notepad++"/>
+                    <Item id = "6324" name = "Cambiar de documento (Ctrl+TAB)"/>
                     <Item id = "6331" name = "Mostrar só o nome do arquivo no título da ventá"/>
                     <Item id = "6334" name = "Autodetectar codificación"/>
                     <Item id = "6349" name = "Usar DirectWrite (pode mellorar a representación de caracteres especiais, é necesario reiniciar Notepad++)"/>
                     <Item id = "6337" name = "Ext. do arquivo área de traballo:"/>
-					<Item id = "6114" name = "Permitir"/>
-					<Item id = "6117" name = "Ordenar polo usado máis recente"/>
+                    <Item id = "6114" name = "Permitir"/>
+                    <Item id = "6117" name = "Ordenar polo usado máis recente"/>
                     <Item id = "6344" name = "Visualizador de documento"/>
                     <Item id = "6345" name = "Pestana do visualizador"/>
                     <Item id = "6346" name = "Ver no mapa do documento"/>
@@ -1217,7 +1250,7 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                     <Item id = "6361" name = "Habilitar o cadro de diálogo de confirmación &quot;Gardar todo&quot;"/>
                 </MISC>
             </Preference>
-			<MultiMacro title = "Executar macro múltiples veces">
+            <MultiMacro title = "Executar macro múltiples veces">
                 <Item id = "1" name = "&amp;Executar"/>
                 <Item id = "2" name = "&amp;Cancelar"/>
                 <Item id = "8006" name = "Macro a executar:"/>
@@ -1225,14 +1258,14 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                 <Item id = "8005" name = "veces"/>
                 <Item id = "8002" name = "Executar até o &amp;final do arquivo"/>
             </MultiMacro>
-			<Window title = "Pestanas">
+            <Window title = "Pestanas">
                 <Item id = "1" name = "&amp;Activar"/>
                 <Item id = "2" name = "Ace&amp;ptar"/>
                 <Item id = "7002" name = "&amp;Gardar"/>
                 <Item id = "7003" name = "Pechar &amp;pestanas"/>
                 <Item id = "7004" name = "&amp;Ordenar pestanas"/>
             </Window>
-			<ColumnEditor title = "Editor de columnas">
+            <ColumnEditor title = "Editor de columnas">
                 <Item id = "2023" name = "&amp;Texto a insertar"/>
                 <Item id = "2033" name = "&amp;Número a insertar"/>
                 <Item id = "2030" name = "Número &amp;inicial:"/>
@@ -1244,8 +1277,8 @@ Pode definir varios marcadores de columna utilizando espazos en branco para sepa
                 <Item id = "2025" name = "&amp;Octal"/>
                 <Item id = "2026" name = "&amp;Hexadecimal"/>
                 <Item id = "2027" name = "&amp;Binario"/>
-				<Item id = "1" name = "Aceptar"/>
-				<Item id = "2" name = "Cancelar"/>
+                <Item id = "1" name = "Aceptar"/>
+                <Item id = "2" name = "Cancelar"/>
             </ColumnEditor>
             <FindInFinder title = "Buscar nos resultados das buscas">
                 <Item id = "1"    name = "Buscar todo"/>
