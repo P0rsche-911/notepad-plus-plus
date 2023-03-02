@@ -1531,7 +1531,7 @@ Notepad++ se reiniciará después de que finalicen todas.
             </Menus>
         </ProjectManager>
         <MiscStrings>
-            <!-- INT_REPLACE$ and $STR_REPLACE$ are place holders, don't translate these place holders. -->
+            <!-- $INT_REPLACE$ and $STR_REPLACE$ are place holders, don't translate these place holders. -->
             <word-chars-list-tip value="Esto le permite incluir caracteres adicionales en los caracteres de la palabra actual al hacer doble clic para seleccionar o buscar con la opción &quot;Solo palabras completas&quot; marcada."/> <!-- HowToReproduce: In "Delimiter" section of Preferences dialog, hover your mouse on the "?" button. -->
 
             <!-- Don't translate "(&quot;EOL custom color&quot;)" -->
@@ -1615,7 +1615,7 @@ Buscar en todos los archivos pero excluir todas las carpetas de registro o regis
             <recent-file-history-customlength value="Longitud:"/>
             <userdefined-title-new value="Crear nuevo lenguaje..."/>
             <userdefined-title-save value="Guardar lenguaje actual como..."/>
-            <userdefined-title-rename value="Cambiar el nombre del idioma actual"/>
+            <userdefined-title-rename value="Cambiar el nombre del lenguaje actual"/>
             <edit-verticaledge-nb-col value="Nº columna:"/>
             <summary value="Resumen"/>
             <summary-filepath value="Ruta completa del archivo:"/>
