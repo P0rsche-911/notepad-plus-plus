@@ -10,7 +10,7 @@ Translation note:
 			<Main>
 				<!-- Main Menu Entries -->
 				<Entries>
-					<Item menuId="file" name="&amp;Archivo"/>
+					<Item menuId="file" name="&amp;Archivo"/>
 					<Item menuId="edit" name="&amp;Editar"/>
 					<Item menuId="search" name="&amp;Buscar"/>
 					<Item menuId="view" name="&amp;Vista"/>
